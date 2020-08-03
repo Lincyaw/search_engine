@@ -15,18 +15,28 @@ class BilibiliSpider(scrapy.Spider):
     allowed_domains = ['tieba.baidu.com']
     # 爬取的起始地址
     start_urls = ['https://tieba.baidu.com/f?kw=nba&ie=utf-8&pn=0']
-    # start_urls = ['https://www.view.sdu.edu.cn']
-# class="threadlist_title pull_left j_th_tit"
+
     def parse(self, response):
+        count = 0
         # 爬取当前网页
         print('start parse : ' + response.url)
         print("开始了开始了")
-        selectors = response.xpath('//*[@id="thread_list"]/li[@class=" j_thread_list clearfix"]')
+        selectors = response.xpath('//*[@id="thread_list"]/li')
         print(selectors)
-        for selector in selectors:
-            title = selector.xpath('//div[@class="threadlist_title pull_left j_th_tit"]')
-            print(title)
+        for selector in selectors[2:]:
+            count = count + 1
+            title = selector.xpath(
+                './/div[@class="threadlist_title pull_left j_th_tit  member_thread_title_frs "]/a/text()').get()
+            if title == None:
+                title = selector.xpath('.//div[@class="threadlist_title pull_left j_th_tit "]/a/text()').get()
+            introduction = selector.xpath(
+                './/div[@class="threadlist_abs threadlist_abs_onlyline "]/text()').get()
+            introduction = introduction.strip()
+            author = selector.xpath(
+                './/span[@class="tb_icon_author "]//a[@rel="noreferrer"]/text()').get()
+            print(title, count)
+            print(introduction)
+            print(author)
         print("结束了")
 
-# //*[@id="thread_list"]/li[@class=" j_thread_list clearfix"]//div[@class="threadlist_lz clearfix"]
 
