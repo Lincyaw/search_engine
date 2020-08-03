@@ -14,7 +14,7 @@ NEWSPIDER_MODULE = 'testSpider.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+USER_AGENT = 'User-Agent Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
