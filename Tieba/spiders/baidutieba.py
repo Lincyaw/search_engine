@@ -51,7 +51,6 @@ class BaidutiebaSpider(scrapy.Spider):
         root_url = "https://tieba.baidu.com/f?kw=nba&ie=utf-8&pn="
         count = 0
 
-
         # 爬取当前网页
         print('start parse : ' + response.url)
         print("开始了开始了")
@@ -103,7 +102,7 @@ class BaidutiebaSpider(scrapy.Spider):
             # print("url = ", url)
             # print(" \n")
 
-        for PAGE_NUMBER in range(0,10):
+        for PAGE_NUMBER in range(0, 10):
             url = root_url + str(PAGE_NUMBER)
             self.destination_list.append(url)
             yield scrapy.Request(url, callback=self.parse, errback=self.errback_httpbin)
