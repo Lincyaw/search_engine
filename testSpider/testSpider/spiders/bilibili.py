@@ -17,6 +17,7 @@ class BilibiliSpider(scrapy.Spider):
     start_urls = ['https://tieba.baidu.com/f?kw=nba&ie=utf-8&pn=0']
 
     def parse(self, response):
+        root_url = "https://tieba.baidu.com/f?kw=nba&ie=utf-8&pn="
         count = 0
         # 爬取当前网页
         print('start parse : ' + response.url)
@@ -27,16 +28,40 @@ class BilibiliSpider(scrapy.Spider):
             count = count + 1
             title = selector.xpath(
                 './/div[@class="threadlist_title pull_left j_th_tit  member_thread_title_frs "]/a/text()').get()
-            if title == None:
+            if not title:
                 title = selector.xpath('.//div[@class="threadlist_title pull_left j_th_tit "]/a/text()').get()
             introduction = selector.xpath(
                 './/div[@class="threadlist_abs threadlist_abs_onlyline "]/text()').get()
             introduction = introduction.strip()
             author = selector.xpath(
                 './/span[@class="tb_icon_author "]//a[@rel="noreferrer"]/text()').get()
-            print(title, count)
-            print(introduction)
-            print(author)
+            reply = selector.xpath(
+                './/span[@class ="threadlist_rep_num center_text"]/text()').get()
+            last_reply_time = selector.xpath(
+                './/span[@class ="threadlist_reply_date pull_right j_reply_data"]/text()').get()
+            last_reply_time = last_reply_time.strip()
+            url = selector.xpath(
+                './/div[@class="threadlist_title pull_left j_th_tit "]/a/@href').get()
+            if url:   # 会员情况与非会员的xpath不一样, 判断一下非会员的是否读成功, 失败的话就表示是会员的, 要重新读一遍
+                url = "https://tieba.baidu.com/"+url
+            else:
+                url = selector.xpath(
+                    './/div[@class="threadlist_title pull_left j_th_tit  member_thread_title_frs "]/a/@href').get()
+                url = "https://tieba.baidu.com/" + url
+            print("title: "+title, count)
+            print("introduction: "+introduction)
+            print("author: ", author)
+            print("reply number: "+reply)
+            print("last reply time = "+last_reply_time)
+            print("url = ", url)
+            print(" \n")
+            for PAGE_NUMBER in range(50):
+                url = root_url + str(PAGE_NUMBER)
+                print(url)
+
         print("结束了")
+
+
+
 
 
