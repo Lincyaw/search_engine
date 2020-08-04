@@ -77,11 +77,11 @@ class BaidutiebaSpider(scrapy.Spider):
             url = selector.xpath(
                 './/div[@class="threadlist_title pull_left j_th_tit "]/a/@href').get()
             if url:  # 会员情况与非会员的xpath不一样, 判断一下非会员的是否读成功, 失败的话就表示是会员的, 要重新读一遍
-                url = "https://tieba.baidu.com/" + url
+                url = "https://tieba.baidu.com" + url
             else:
                 url = selector.xpath(
                     './/div[@class="threadlist_title pull_left j_th_tit  member_thread_title_frs "]/a/@href').get()
-                url = "https://tieba.baidu.com/" + url
+                url = "https://tieba.baidu.com" + url
             item['title'] = title
             item['introduction'] = introduction
             item['author'] = author
@@ -102,7 +102,7 @@ class BaidutiebaSpider(scrapy.Spider):
             # print("url = ", url)
             # print(" \n")
 
-        for PAGE_NUMBER in range(0, 10):
+        for PAGE_NUMBER in range(0, 100):
             url = root_url + str(PAGE_NUMBER)
             self.destination_list.append(url)
             yield scrapy.Request(url, callback=self.parse, errback=self.errback_httpbin)

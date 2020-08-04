@@ -45,7 +45,7 @@ class Query:
 
     def standard_search(self, query):
         parameter = {
-            'keys': ['newsTitle', 'newsContent'],
+            'keys': ['title', 'introduction'],
             'keywords': query,
             'page': 15,
             'pagesize': 10,
