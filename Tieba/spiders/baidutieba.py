@@ -94,15 +94,15 @@ class BaidutiebaSpider(scrapy.Spider):
 
                 # yield it
                 yield item
-                print("title: " + title, count)
-                print("introduction: " + introduction)
-                print("author: ", author)
-                print("reply number: " + reply)
-                print("last reply time = " + last_reply_time)
-                print("url = ", url)
-                print(" \n")
+                # print("title: " + title, count)
+                # print("introduction: " + introduction)
+                # print("author: ", author)
+                # print("reply number: " + reply)
+                # print("last reply time = " + last_reply_time)
+                # print("url = ", url)
+                # print(" \n")
 
-        for PAGE_NUMBER in range(1, 100):
+        for PAGE_NUMBER in range(2, 300):
             url = root_url + str(PAGE_NUMBER)
             self.destination_list.append(url)
             print('已爬取网址数：' + (str)(len(self.destination_list)))

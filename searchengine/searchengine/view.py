@@ -22,7 +22,7 @@ def search(request):
 
     # str = ''
     # for i in res:
-    #     str += '<p><a href="' + i['newsUrl'] + '">' + i['newsTitle'] + '</a></p>'
+    #     str += '<p><a href="' + i['url'] + '">' + i['title'] + '</a></p>'
     # return HttpResponse(str)
 
     return render(request, 'result.html', c)

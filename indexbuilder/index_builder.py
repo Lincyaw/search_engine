@@ -15,6 +15,17 @@ class IndexBuilder:
         #self.db = self.mongoClient[settings.MONGODB_DBNAME][settings.MONGODB_SHEETNAME]
         self.db = pymongo.database.Database(self.mongoClient, settings.MONGODB_DBNAME)
         self.pagesCollection = Collection(self.db, settings.MONGODB_SHEETNAME)
+        collection = self.db.person
+
+        for url in collection.distinct('title'):  # 使用distinct方法，获取每一个独特的元素列表
+            num = collection.count({"title": url})  # 统计每一个元素的数量
+            for i in range(1, num):  # 根据每一个元素的数量进行删除操作，当前元素只有一个就不再删除
+                print('delete %s %d times ' % (url, i))
+                # 注意后面的参数， 很奇怪，在mongo命令行下，它为1时，是删除一个元素，这里却是为0时删除一个
+                collection.remove({"title": url}, 0)
+            for i in collection.find({"title": url}):  # 打印当前所有元素
+                print(i)
+        print(collection.distinct('title'))   # 再次打印一遍所要去重的元素)
 
     def build_index(self):
         analyzer = ChineseAnalyzer()
@@ -80,15 +91,15 @@ class IndexBuilder:
 
 
 # --------此段代码用以在数据库中缺少indexed字段时补充插入indexed字段并初始化为false--------
-# host = settings.MONGODB_HOST
-# port = settings.MONGODB_PORT
-# dbname = settings.MONGODB_DBNAME
-# sheetname = settings.MONGODB_SHEETNAME
-# client = pymongo.MongoClient(host=host, port=port)
-# mydb = client[dbname]
-# post = mydb[sheetname]
-# post.update({}, {'$set':{'indexed':'False'}}, upsert=False, multi=True)   # 增加indexed项并初始化为False
-# post.update({'indexed': 'True'}, {'$set':{'indexed':'False'}})
+#         host = settings.MONGODB_HOST
+#         port = settings.MONGODB_PORT
+#         dbname = settings.MONGODB_DBNAME
+#         sheetname = settings.MONGODB_SHEETNAME
+#         client = pymongo.MongoClient(host=host, port=port)
+#         mydb = client[dbname]
+#         post = mydb[sheetname]
+#         post.update({}, {'$set':{'indexed':'False'}}, upsert=False, multi=True)   # 增加indexed项并初始化为False
+#         post.update({'indexed': 'True'}, {'$set':{'indexed':'False'}})
 # --------------------------------------------------------------------------------------
 
 if __name__ == '__main__':
