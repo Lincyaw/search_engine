@@ -64,9 +64,14 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'Tieba.pipelines.TiebaPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'Tieba.pipelines.MongoDBPipeline': 500,
+}
+
+MONGODB_HOST = "localhost"
+MONGODB_PORT = 27017
+MONGODB_DBNAME = "new_db"
+MONGODB_SHEETNAME = "news"
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html

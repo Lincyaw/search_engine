@@ -8,10 +8,11 @@ from pymongo.collection import Collection
 import settings
 
 
+
 class IndexBuilder:
     def __init__(self):
         self.mongoClient = pymongo.MongoClient(host=settings.MONGODB_HOST, port=settings.MONGODB_PORT)
-        # self.db = self.mongoClient[settings.MONGODB_DBNAME][settings.MONGODB_SHEETNAME]
+        #self.db = self.mongoClient[settings.MONGODB_DBNAME][settings.MONGODB_SHEETNAME]
         self.db = pymongo.database.Database(self.mongoClient, settings.MONGODB_DBNAME)
         self.pagesCollection = Collection(self.db, settings.MONGODB_SHEETNAME)
 
