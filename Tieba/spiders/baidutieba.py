@@ -54,10 +54,11 @@ class BaidutiebaSpider(scrapy.Spider):
         # 爬取当前网页
         print('start parse : ' + response.url)
         print("开始了开始了")
-        item = items.TiebaItem()
+
         selectors = response.xpath('//*[@id="thread_list"]/li')
         print(selectors)
         if response.url.startswith("https://tieba.baidu.com/"):
+            item = items.TiebaItem()
             for selector in selectors[2:]:
                 count = count + 1
                 title = selector.xpath(

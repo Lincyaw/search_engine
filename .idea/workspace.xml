@@ -20,30 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ebb4dc7-0c7d-4068-8ed9-334bd40ecc69" name="Default Changelist" comment="调整架构, 修改爬虫名字">
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_5gg1mhb8m074ma2l.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_7uj473n9xzoq9aiz.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_aly6753wjv835k5x.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_ht615uws0kwiq30c.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_leo444zqae2xxvaf.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/_MAIN_139.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searchengine/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searchengine/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searchengine/run_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searchengine/searchengine/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searchengine/searchengine/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searchengine/searchengine/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searchengine/searchengine/view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searchengine/searchengine/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searchengine/templates/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searchengine/templates/result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tieba/pause/response.dest" beforeDir="false" afterPath="$PROJECT_DIR$/Tieba/pause/response.dest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tieba/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tieba/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tieba/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tieba/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tieba/spiders/baidutieba.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tieba/spiders/baidutieba.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/index/_MAIN_2.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/index_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/indexbuilder/index_builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/indexbuilder/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +53,7 @@
       <recent name="C:\Users\81475\Documents\GitHub\search_engine\Tieba" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run_server">
+  <component name="RunManager" selected="Python.run">
     <configuration name="baidutieba" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="search_engine" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,9 +144,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run" />
         <item itemvalue="Python.run_server" />
         <item itemvalue="Python.index_builder" />
-        <item itemvalue="Python.run" />
         <item itemvalue="Python.baidutieba" />
       </list>
     </recent_temporary>
@@ -184,6 +163,7 @@
       <workItem from="1596524720216" duration="735000" />
       <workItem from="1596525479061" duration="37000" />
       <workItem from="1596628332703" duration="4766000" />
+      <workItem from="1596674335215" duration="452000" />
     </task>
     <task id="LOCAL-00001" summary="调整架构, 修改爬虫名字">
       <created>1596516311848</created>

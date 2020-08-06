@@ -27,6 +27,7 @@ class MongoDBPipeline(object):
         data = dict(item)
         # self.post.insert(data)    # 直接插入的方式有可能导致数据重复
         # 更新数据库中的数据，如果upsert为Ture，那么当没有找到指定的数据时就直接插入，反之不执行插入
+
         self.post.update({'url': item['url']}, data, upsert=True)
         return item
 
