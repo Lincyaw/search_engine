@@ -23,7 +23,7 @@ class Query:
 
         # sorting
         scores = sorting.ScoreFacet()
-        date = sorting.FieldFacet("newsPublishTime", reverse=True)
+        date = sorting.FieldFacet("reply", reverse=True)
 
         # 是否分页返回OR全部返回,默认全部返回
         _limit = None
@@ -39,7 +39,7 @@ class Query:
         print(len(results))
 
         for i in results:
-            print(i['newsTitle'])
+            print(i['url'])
 
         return results
 
@@ -60,4 +60,4 @@ class Query:
 ## beta code
 if __name__ == '__main__':
     q = Query()
-    q.standard_search('软件园校区')
+    q.standard_search('球')

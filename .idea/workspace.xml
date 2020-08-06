@@ -163,7 +163,7 @@
       <workItem from="1596524720216" duration="735000" />
       <workItem from="1596525479061" duration="37000" />
       <workItem from="1596628332703" duration="4766000" />
-      <workItem from="1596674335215" duration="452000" />
+      <workItem from="1596674335215" duration="516000" />
     </task>
     <task id="LOCAL-00001" summary="调整架构, 修改爬虫名字">
       <created>1596516311848</created>
@@ -204,22 +204,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="740" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1596628945867" />
-    <state width="1237" height="186" key="GridCell.Tab.0.bottom" timestamp="1596632921025">
+    <state width="1237" height="186" key="GridCell.Tab.0.bottom" timestamp="1596674854743">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="186" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596632921025" />
-    <state width="1237" height="186" key="GridCell.Tab.0.center" timestamp="1596632921024">
+    <state width="1237" height="186" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596674854743" />
+    <state width="1237" height="186" key="GridCell.Tab.0.center" timestamp="1596674854741">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="186" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596632921024" />
-    <state width="1237" height="186" key="GridCell.Tab.0.left" timestamp="1596632921024">
+    <state width="1237" height="186" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596674854741" />
+    <state width="1237" height="186" key="GridCell.Tab.0.left" timestamp="1596674854741">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="186" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596632921024" />
-    <state width="1237" height="186" key="GridCell.Tab.0.right" timestamp="1596632921025">
+    <state width="1237" height="186" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596674854741" />
+    <state width="1237" height="186" key="GridCell.Tab.0.right" timestamp="1596674854743">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="186" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596632921025" />
+    <state width="1237" height="186" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596674854743" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1596628461369">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -247,7 +247,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/search_engine$index_builder.coverage" NAME="index_builder Coverage Results" MODIFIED="1596632723024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/indexbuilder" />
-    <SUITE FILE_PATH="coverage/search_engine$run.coverage" NAME="run Coverage Results" MODIFIED="1596632448445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tieba" />
+    <SUITE FILE_PATH="coverage/search_engine$run.coverage" NAME="run Coverage Results" MODIFIED="1596674809014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tieba" />
     <SUITE FILE_PATH="coverage/search_engine$run_server.coverage" NAME="run_server Coverage Results" MODIFIED="1596632921008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/searchengine" />
     <SUITE FILE_PATH="coverage/search_engine$baidutieba.coverage" NAME="baidutieba Coverage Results" MODIFIED="1596631955814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tieba/spiders" />
   </component>
