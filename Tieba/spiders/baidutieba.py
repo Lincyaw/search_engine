@@ -111,12 +111,16 @@ class BaidutiebaSpider(scrapy.Spider):
                 # print("url = ", url)
                 # print(" \n")
 
-        for PAGE_NUMBER in range(2, 100):
+        for PAGE_NUMBER in range(2, 10):
             url = root_url + str(PAGE_NUMBER)
-            self.destination_list.append(url)
-            print('已爬取网址数：' + (str)(len(self.destination_list)))
-            yield scrapy.Request(url, callback=self.parse, errback=self.errback_httpbin, dont_filter=False)
-            # print(url)
+            md5url = md5(url)
+            if self.binary_md5_url_search(md5url) > -1:    # 存在当前MD5
+                pass
+            else:
+                self.binary_md5_url_insert(md5url)
+                print('已爬取网址数：' + (str)(len(self.destination_list)))
+                yield scrapy.Request(url, callback=self.parse, errback=self.errback_httpbin, dont_filter=False)
+                # print(url)
 
         print("结束了")
 

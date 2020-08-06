@@ -20,32 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ebb4dc7-0c7d-4068-8ed9-334bd40ecc69" name="Default Changelist" comment="调整架构, 修改爬虫名字">
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_42nvuss5y7pjzhnv.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_b99gyjk1ekjiuv5c.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_eae0n6fddrrapjx3.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_ejb4xi674xi7klis.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_mpg5fwdmc9a7wgmr.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_xegzomhmhg7i4ov2.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_zybkxvg4qr45wrsb.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/_MAIN_1512.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/search_engine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/search_engine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_6klus7ox6fva9x51.seg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_ctl2klwcwulcaidp.seg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_tcsebffecynbfndp.seg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_tq4nhi0bgy2g52qh.seg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_vljbw7eilyh5upmg.seg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_vs8joz5fcvoiqhvw.seg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexbuilder/index/_MAIN_1722.toc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tieba/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tieba/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tieba/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tieba/pipelines.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tieba/spiders/baidutieba.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tieba/spiders/baidutieba.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_1tywlsdsbcr8dcay.seg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_4f85pns3noiacros.seg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_bk10qnkr2nxfrb7k.seg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_e9iy1aw43z72u3dx.seg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_hiyg713smxx4tb6h.seg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_qe5dlfruio0j599g.seg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_w2o29spm6lnsug6g.seg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_xc7bzxn9d71brp2j.seg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_y4rdxeusqt75sy9g.seg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/index/_MAIN_1006.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/searchengine/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/searchengine/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searchengine/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/searchengine/templates/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_42nvuss5y7pjzhnv.seg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_ejb4xi674xi7klis.seg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_mpg5fwdmc9a7wgmr.seg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_xegzomhmhg7i4ov2.seg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_zybkxvg4qr45wrsb.seg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexbuilder/index/_MAIN_1512.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexbuilder/index_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/indexbuilder/index_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexbuilder/sample_index/MAIN_286na4vdy3bm4ccl.seg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexbuilder/sample_index/MAIN_WRITELOCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexbuilder/sample_index/MAIN_ve3rez6plk4v4xv5.seg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexbuilder/sample_index/_MAIN_2.toc" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +62,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SduViewWebSpider" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -121,28 +115,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="query" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="search_engine" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/indexbuilder" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/indexbuilder/query.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="search_engine" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,13 +159,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="search_engine" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/indexbuilder" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/indexbuilder/sample.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.run_server" />
         <item itemvalue="Python.index_builder" />
         <item itemvalue="Python.run" />
         <item itemvalue="Python.baidutieba" />
-        <item itemvalue="Python.query" />
+        <item itemvalue="Python.sample" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +205,9 @@
       <workItem from="1596628332703" duration="4766000" />
       <workItem from="1596674321313" duration="2848000" />
       <workItem from="1596677203336" duration="1279000" />
+      <workItem from="1596695215567" duration="644000" />
+      <workItem from="1596716991192" duration="28000" />
+      <workItem from="1596717242017" duration="2238000" />
     </task>
     <task id="LOCAL-00001" summary="调整架构, 修改爬虫名字">
       <created>1596516311848</created>
@@ -243,30 +240,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="调整架构, 修改爬虫名字" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="356" y="141" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596519855932">
+    <state x="356" y="141" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596719427012">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="356" y="141" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1596519855932" />
-    <state x="740" y="99" key="FileChooserDialogImpl" timestamp="1596674331021">
+    <state x="356" y="141" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1596719427012" />
+    <state x="740" y="99" key="FileChooserDialogImpl" timestamp="1596717678874">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="740" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1596674331021" />
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1596678491010">
+    <state x="740" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1596717678874" />
+    <state width="1237" height="167" key="GridCell.Tab.0.bottom" timestamp="1596719494365">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596678491010" />
-    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1596678491010">
+    <state width="1237" height="167" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596719494365" />
+    <state width="1237" height="167" key="GridCell.Tab.0.center" timestamp="1596719494365">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596678491010" />
-    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1596678491010">
+    <state width="1237" height="167" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596719494365" />
+    <state width="1237" height="167" key="GridCell.Tab.0.left" timestamp="1596719494365">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596678491010" />
-    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1596678491010">
+    <state width="1237" height="167" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596719494365" />
+    <state width="1237" height="167" key="GridCell.Tab.0.right" timestamp="1596719494365">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596678491010" />
+    <state width="1237" height="167" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596719494365" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1596678491011">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -294,9 +291,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/search_engine$query.coverage" NAME="query Coverage Results" MODIFIED="1596677122514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/indexbuilder" />
-    <SUITE FILE_PATH="coverage/search_engine$index_builder.coverage" NAME="index_builder Coverage Results" MODIFIED="1596678237233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/indexbuilder" />
-    <SUITE FILE_PATH="coverage/search_engine$run.coverage" NAME="run Coverage Results" MODIFIED="1596677310403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tieba" />
-    <SUITE FILE_PATH="coverage/search_engine$run_server.coverage" NAME="run_server Coverage Results" MODIFIED="1596678445841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/searchengine" />
-    <SUITE FILE_PATH="coverage/search_engine$baidutieba.coverage" NAME="baidutieba Coverage Results" MODIFIED="1596677300868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tieba/spiders" />
+    <SUITE FILE_PATH="coverage/search_engine$index_builder.coverage" NAME="index_builder Coverage Results" MODIFIED="1596719313879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/indexbuilder" />
+    <SUITE FILE_PATH="coverage/search_engine$sample.coverage" NAME="sample Coverage Results" MODIFIED="1596719454823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/indexbuilder" />
+    <SUITE FILE_PATH="coverage/search_engine$run.coverage" NAME="run Coverage Results" MODIFIED="1596719177336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tieba" />
+    <SUITE FILE_PATH="coverage/search_engine$run_server.coverage" NAME="run_server Coverage Results" MODIFIED="1596719326016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/searchengine" />
+    <SUITE FILE_PATH="coverage/search_engine$baidutieba.coverage" NAME="baidutieba Coverage Results" MODIFIED="1596719171826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tieba/spiders" />
   </component>
 </project>
