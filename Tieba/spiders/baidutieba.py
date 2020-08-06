@@ -4,6 +4,14 @@ import pickle
 from Tieba import items
 
 
+def md5(val):
+    import hashlib
+    ha = hashlib.md5()
+    ha.update(bytes(val, encoding='utf-8'))
+    key = ha.hexdigest()
+    return key
+
+
 class BaidutiebaSpider(scrapy.Spider):
     name = 'baidutieba'
     # 允许访问的域
@@ -89,7 +97,7 @@ class BaidutiebaSpider(scrapy.Spider):
                 item['reply'] = reply
                 item['last_reply_time'] = last_reply_time
                 item['url'] = url
-
+                item['urlmd5'] = md5(url)
                 # 索引构建flag
                 item['indexed'] = 'False'
 
@@ -103,11 +111,11 @@ class BaidutiebaSpider(scrapy.Spider):
                 # print("url = ", url)
                 # print(" \n")
 
-        for PAGE_NUMBER in range(2, 300):
+        for PAGE_NUMBER in range(2, 100):
             url = root_url + str(PAGE_NUMBER)
             self.destination_list.append(url)
             print('已爬取网址数：' + (str)(len(self.destination_list)))
-            yield scrapy.Request(url, callback=self.parse, errback=self.errback_httpbin)
+            yield scrapy.Request(url, callback=self.parse, errback=self.errback_httpbin, dont_filter=False)
             # print(url)
 
         print("结束了")
@@ -137,8 +145,7 @@ class BaidutiebaSpider(scrapy.Spider):
 
         self.counter += 1  # 计数器+1
 
-
-# 二分法md5集合排序插入self.url_md5_set--16进制md5字符串集
+    # 二分法md5集合排序插入self.url_md5_set--16进制md5字符串集
     def binary_md5_url_insert(self, md5_item):
         low = 0
         high = len(self.url_md5_seen)
@@ -149,7 +156,6 @@ class BaidutiebaSpider(scrapy.Spider):
             elif self.url_md5_seen[mid] >= md5_item:
                 high = mid
         self.url_md5_seen.insert(low, md5_item)
-
 
     # 二分法查找url_md5存在于self.url_md5_set的位置，不存在返回-1
     def binary_md5_url_search(self, md5_item):

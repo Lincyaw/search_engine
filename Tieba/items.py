@@ -13,9 +13,9 @@ class TiebaItem(scrapy.Item):
     # name = scrapy.Field()
     title = scrapy.Field()
     url = scrapy.Field()
-    url_md5 = scrapy.Field()
     author = scrapy.Field()
     reply = scrapy.Field()
     last_reply_time = scrapy.Field()
     introduction = scrapy.Field()
     indexed = scrapy.Field()  # 索引构建过了没有的flag
+    urlmd5 = scrapy.Field()
