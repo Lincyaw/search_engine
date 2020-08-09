@@ -17,23 +17,13 @@ class BaidutiebaSpider(scrapy.Spider):
     # 允许访问的域
     allowed_domains = ['tieba.baidu.com']
     # 爬取的起始地址
-    start_urls = [f'https://tieba.baidu.com/f?kw=nba&ie=utf-8&pn={page*50}' for page in range(0, 2000)]
-    # 将要爬取的地址列表
+    start_urls = [f'https://tieba.baidu.com/f?kw=nba&ie=utf-8&pn={page * 50}' for page in range(0, 2000)]
+    # 已经爬取的地址列表
     destination_list = start_urls
     # 已爬取地址md5集合
     url_md5_seen = []
-    # 断点续爬计数器
-    counter = 0
-    # 保存频率，每多少次爬取保存一次断点
-    save_frequency = 50
-
 
     def parse(self, response):
-        # 断点续爬功能之保存断点
-        # self.counter_plus()
-
-        root_url = "https://tieba.baidu.com/f?kw=nba&ie=utf-8&pn="
-
         # 爬取当前网页
         print('start parse : ' + response.url)
         print("开始了开始了")
@@ -93,14 +83,11 @@ class BaidutiebaSpider(scrapy.Spider):
                 # print("url = ", url)
                 # print(" \n")
 
-
-
         print("结束了")
 
     # scrapy.request请求失败后的处理
     def errback_httpbin(self, failure):
         print('Error 404 url deleted: ' + failure.request._url)
-
 
     # 二分法md5集合排序插入self.url_md5_set--16进制md5字符串集
     def binary_md5_url_insert(self, md5_item):
