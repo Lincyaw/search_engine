@@ -20,293 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ebb4dc7-0c7d-4068-8ed9-334bd40ecc69" name="Default Changelist" comment="调整架构, 修改爬虫名字">
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/2/q00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/2/q00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/2/q00002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/2/q00003" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/2/q00004" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/2/q00005" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/2/q00006" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/2/q00007" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/2/q00008" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/2/q00009" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00003" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00004" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00005" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00006" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00007" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00008" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00009" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00010" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00011" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00012" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00013" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00014" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00015" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00016" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00017" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00018" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00019" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00020" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00021" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00022" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00023" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00024" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00025" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00026" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00027" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00028" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00029" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00030" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00031" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00032" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00033" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00034" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00035" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00036" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00037" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00038" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00039" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00040" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00041" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00042" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00043" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00044" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00045" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00046" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00047" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00048" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00049" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00050" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00051" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00052" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00053" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00054" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00055" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00056" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00057" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00058" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00059" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00060" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00061" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00062" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00063" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00064" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00065" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00066" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00067" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00068" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00069" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00070" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00071" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00072" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00073" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00074" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00075" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00076" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00077" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00078" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00079" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00080" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00081" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00082" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00083" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00084" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00085" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00086" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00087" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00088" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00089" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00090" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00091" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00092" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00093" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00094" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00095" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00096" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00097" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00098" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00099" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00101" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00102" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00103" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00104" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00105" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00106" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00107" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00108" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00109" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00110" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00111" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00112" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00113" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00114" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00115" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00116" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00117" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00118" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00119" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00120" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00121" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00122" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00123" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00124" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00125" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00126" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00127" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00128" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00129" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00130" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00131" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00132" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00133" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00134" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00135" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00136" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00137" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00138" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00139" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00140" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00141" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00142" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00143" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00144" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00145" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00146" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00147" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00148" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00149" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00150" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00151" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00152" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00153" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00154" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00155" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00156" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00157" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00158" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00159" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00160" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00161" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00162" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00163" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00164" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00165" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00166" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00167" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00168" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00169" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00170" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00171" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00172" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00173" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00174" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00175" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00176" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00177" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00178" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00179" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00180" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00181" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00182" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00183" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00184" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00185" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00186" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00187" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00188" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00189" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00190" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00191" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00192" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00193" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00194" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00195" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00196" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00197" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00198" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00199" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00200" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00201" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00202" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00203" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00204" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00205" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00206" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00207" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00208" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00209" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00210" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00211" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00212" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00213" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00214" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00215" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00216" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00217" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00218" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00219" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00220" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00221" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00222" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00223" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00224" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00225" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00226" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00227" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00228" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00229" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00230" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00231" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00232" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00233" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00234" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00235" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00236" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00237" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00238" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00239" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00240" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00241" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00242" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00243" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00244" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00245" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00246" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00247" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00248" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.queue/3/q00249" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/requests.seen" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tieba/pause/spider.state" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_1cuj05f1yi2548e8.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_518jbj4mccky12pz.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_5eszg9zuvm9gzm4c.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_db0rg6kifj0vx61k.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_gntd2v0ti8x2yp3m.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_hcn98at4bpl6nz51.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_jsmplcd3js9qj80d.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_mbh7z17bvpv6xh79.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_qy8iodqz1afla5l4.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_tfsfz55tvdqk5oaa.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/MAIN_u28cgnwhtbaw88zq.seg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexbuilder/index/_MAIN_9046.toc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tieba/pause/response.dest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tieba/pause/response.seen" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tieba/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tieba/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tieba/spiders/baidutieba.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tieba/spiders/baidutieba.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_7w5h7kdt38cyw0l4.seg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_aer43md9h2ka7b7m.seg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_bx8y8wbjvinx7asj.seg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_fcqf5p824h1e1lf2.seg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_ke08ek67nq0ov60o.seg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_okd1iipqnqv9jhtr.seg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/index/MAIN_ytilb5lt3shs2bci.seg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexbuilder/index/_MAIN_589.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexbuilder/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/indexbuilder/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -330,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SduViewWebSpider" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -339,7 +56,7 @@
       <recent name="C:\Users\81475\Documents\GitHub\search_engine\Tieba" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run_server">
+  <component name="RunManager" selected="Python.run">
     <configuration name="baidutieba" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="search_engine" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -452,9 +169,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run" />
         <item itemvalue="Python.run_server" />
         <item itemvalue="Python.index_builder" />
-        <item itemvalue="Python.run" />
         <item itemvalue="Python.baidutieba" />
         <item itemvalue="Python.sample" />
       </list>
@@ -483,6 +200,7 @@
       <workItem from="1596724247054" duration="541000" />
       <workItem from="1596805347576" duration="5385000" />
       <workItem from="1596854202359" duration="24511000" />
+      <workItem from="1596949526900" duration="129000" />
     </task>
     <task id="LOCAL-00001" summary="调整架构, 修改爬虫名字">
       <created>1596516311848</created>
@@ -515,10 +233,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="调整架构, 修改爬虫名字" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="356" y="141" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596719427012">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="534" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596949649282">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="356" y="141" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1596719427012" />
+    <state x="534" y="216" key="#com.intellij.fileTypes.FileTypeChooser/1920.59.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1596949649282" />
     <state x="2301" y="59" key="#run" timestamp="1596724265856">
       <screen x="1920" y="59" width="1536" height="832" />
     </state>
@@ -529,29 +248,29 @@
     <state x="740" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1596717678874" />
     <state x="1110" y="151" key="FileChooserDialogImpl/1920.59.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1596933367592" />
     <state x="2808" y="180" key="FileChooserDialogImpl/1920.59.1536.832/0.0.1920.1040@1920.59.1536.832" timestamp="1596854402833" />
-    <state width="1865" height="285" key="GridCell.Tab.0.bottom" timestamp="1596949034755">
+    <state width="1865" height="285" key="GridCell.Tab.0.bottom" timestamp="1596949655574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="167" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596719494365" />
-    <state width="1865" height="285" key="GridCell.Tab.0.bottom/1920.59.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1596949034755" />
+    <state width="1865" height="285" key="GridCell.Tab.0.bottom/1920.59.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1596949655574" />
     <state width="1481" height="219" key="GridCell.Tab.0.bottom/1920.59.1536.832/0.0.1920.1040@1920.59.1536.832" timestamp="1596899604257" />
-    <state width="1865" height="285" key="GridCell.Tab.0.center" timestamp="1596949034755">
+    <state width="1865" height="285" key="GridCell.Tab.0.center" timestamp="1596949655574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="167" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596719494365" />
-    <state width="1865" height="285" key="GridCell.Tab.0.center/1920.59.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1596949034755" />
+    <state width="1865" height="285" key="GridCell.Tab.0.center/1920.59.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1596949655574" />
     <state width="1481" height="219" key="GridCell.Tab.0.center/1920.59.1536.832/0.0.1920.1040@1920.59.1536.832" timestamp="1596899604257" />
-    <state width="1865" height="285" key="GridCell.Tab.0.left" timestamp="1596949034755">
+    <state width="1865" height="285" key="GridCell.Tab.0.left" timestamp="1596949655574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="167" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596719494365" />
-    <state width="1865" height="285" key="GridCell.Tab.0.left/1920.59.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1596949034755" />
+    <state width="1865" height="285" key="GridCell.Tab.0.left/1920.59.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1596949655574" />
     <state width="1481" height="219" key="GridCell.Tab.0.left/1920.59.1536.832/0.0.1920.1040@1920.59.1536.832" timestamp="1596899604257" />
-    <state width="1865" height="285" key="GridCell.Tab.0.right" timestamp="1596949034755">
+    <state width="1865" height="285" key="GridCell.Tab.0.right" timestamp="1596949655574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="167" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596719494365" />
-    <state width="1865" height="285" key="GridCell.Tab.0.right/1920.59.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1596949034755" />
+    <state width="1865" height="285" key="GridCell.Tab.0.right/1920.59.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1596949655574" />
     <state width="1481" height="219" key="GridCell.Tab.0.right/1920.59.1536.832/0.0.1920.1040@1920.59.1536.832" timestamp="1596899604257" />
     <state width="1865" height="330" key="GridCell.Tab.1.bottom" timestamp="1596949032097">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -590,7 +309,7 @@
     <SUITE FILE_PATH="coverage/search_engine$index_builder.coverage" NAME="index_builder Coverage Results" MODIFIED="1596948767908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/indexbuilder" />
     <SUITE FILE_PATH="coverage/search_engine$sample.coverage" NAME="sample Coverage Results" MODIFIED="1596719454823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/indexbuilder" />
     <SUITE FILE_PATH="coverage/search_engine$run_server.coverage" NAME="run_server Coverage Results" MODIFIED="1596948785190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/searchengine" />
-    <SUITE FILE_PATH="coverage/search_engine$run.coverage" NAME="run Coverage Results" MODIFIED="1596945726187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tieba" />
+    <SUITE FILE_PATH="coverage/search_engine$run.coverage" NAME="run Coverage Results" MODIFIED="1596949614182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tieba" />
     <SUITE FILE_PATH="coverage/search_engine$baidutieba.coverage" NAME="baidutieba Coverage Results" MODIFIED="1596719171826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tieba/spiders" />
     <SUITE FILE_PATH="coverage/search_engine$query.coverage" NAME="query Coverage Results" MODIFIED="1596677122514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/indexbuilder" />
   </component>
